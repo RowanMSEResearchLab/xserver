@@ -1,0 +1,3 @@
+<!-- shared -*-xml-*- entity definitions for the X server documentation -->
+<!ENTITY xserver.version "1.13.0">
+<!ENTITY xserver.reldate "2012-09-05">

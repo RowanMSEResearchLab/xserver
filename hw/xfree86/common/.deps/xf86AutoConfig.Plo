@@ -1,0 +1,568 @@
+xf86AutoConfig.lo: xf86AutoConfig.c ../../../include/xorg-config.h \
+ ../../../include/dix-config.h ../../../include/xkb-config.h xf86.h \
+ xf86str.h ../../../include/misc.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xmd.h \
+ /usr/include/X11/X.h /usr/include/X11/Xdefs.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h ../../../include/os.h \
+ ../../../include/misc.h /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/string.h \
+ /usr/include/i386-linux-gnu/bits/string2.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/string3.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h \
+ /usr/include/i386-linux-gnu/bits/stdio.h \
+ /usr/include/i386-linux-gnu/bits/stdio2.h ../../../include/Xprintf.h \
+ /usr/include/X11/Xfuncs.h /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/bits/select2.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h \
+ /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+ /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+ /usr/include/i386-linux-gnu/bits/xopen_lim.h /usr/include/math.h \
+ /usr/include/i386-linux-gnu/bits/huge_val.h \
+ /usr/include/i386-linux-gnu/bits/huge_valf.h \
+ /usr/include/i386-linux-gnu/bits/huge_vall.h \
+ /usr/include/i386-linux-gnu/bits/inf.h \
+ /usr/include/i386-linux-gnu/bits/nan.h \
+ /usr/include/i386-linux-gnu/bits/mathdef.h \
+ /usr/include/i386-linux-gnu/bits/mathcalls.h \
+ /usr/include/i386-linux-gnu/bits/mathinline.h /usr/include/assert.h \
+ /usr/include/ctype.h ../../../include/input.h \
+ ../../../include/screenint.h /usr/include/X11/Xproto.h \
+ /usr/include/X11/Xprotostr.h ../../../include/window.h \
+ ../../../include/region.h ../../../include/regionstr.h \
+ ../../../include/miscstruct.h /usr/include/pixman-1/pixman.h \
+ /usr/include/pixman-1/pixman-version.h ../../../include/xkbrules.h \
+ ../../../include/events.h ../../../include/list.h \
+ /usr/include/X11/extensions/XI2.h ../../../include/scrnintstr.h \
+ ../../../include/colormap.h ../../../include/cursor.h \
+ ../../../include/privates.h ../../../include/dix.h \
+ ../../../include/callback.h ../../../include/gc.h \
+ ../../../include/pixmap.h ../../../include/input.h ../../../Xext/geext.h \
+ /usr/include/X11/extensions/geproto.h /usr/include/X11/extensions/ge.h \
+ /usr/include/X11/extensions/XI.h ../../../include/resource.h \
+ ../../../include/dixaccess.h ../../../include/validate.h \
+ ../../../include/pixmapstr.h ../../../miext/damage/damage.h \
+ ../../../include/colormapst.h xf86Module.h ../../../include/extension.h \
+ ../../../include/dixstruct.h ../../../include/client.h xf86Opt.h \
+ xf86Optionstr.h ../../../include/list.h /usr/include/inttypes.h \
+ /usr/include/X11/extensions/randr.h ../../../include/propertyst.h \
+ ../../../include/property.h /usr/include/pciaccess.h \
+ ../parser/xf86Parser.h ../parser/xf86Optrec.h xf86Optionstr.h \
+ ../parser/xf86tokens.h xf86Config.h ../parser/xf86Optrec.h xf86Priv.h \
+ xf86Privstr.h ../../../hw/xfree86/os-support/xf86_OSlib.h \
+ /usr/include/X11/Xos.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h \
+ /usr/include/i386-linux-gnu/bits/fcntl2.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/unistd.h \
+ /usr/include/i386-linux-gnu/sys/time.h \
+ /usr/include/i386-linux-gnu/bits/timex.h /usr/include/X11/Xarch.h \
+ /usr/include/i386-linux-gnu/sys/ioctl.h \
+ /usr/include/i386-linux-gnu/bits/ioctls.h \
+ /usr/include/i386-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/i386-linux-gnu/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
+ /usr/include/i386-linux-gnu/bits/ioctl-types.h \
+ /usr/include/i386-linux-gnu/sys/ttydefaults.h /usr/include/signal.h \
+ /usr/include/i386-linux-gnu/bits/signum.h \
+ /usr/include/i386-linux-gnu/bits/siginfo.h \
+ /usr/include/i386-linux-gnu/bits/sigaction.h \
+ /usr/include/i386-linux-gnu/bits/sigcontext.h \
+ /usr/include/i386-linux-gnu/asm/sigcontext.h /usr/include/linux/types.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/i386-linux-gnu/bits/sigstack.h \
+ /usr/include/i386-linux-gnu/sys/ucontext.h \
+ /usr/include/i386-linux-gnu/bits/sigthread.h /usr/include/termio.h \
+ /usr/include/termios.h /usr/include/i386-linux-gnu/bits/termios.h \
+ /usr/include/errno.h /usr/include/i386-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/i386-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/i386-linux-gnu/sys/stat.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/sys/kd.h /usr/include/linux/kd.h \
+ /usr/include/i386-linux-gnu/sys/vt.h /usr/include/linux/vt.h \
+ /usr/include/i386-linux-gnu/sys/wait.h \
+ /usr/include/i386-linux-gnu/sys/resource.h \
+ /usr/include/i386-linux-gnu/bits/resource.h \
+ ../../../hw/xfree86/os-support/xf86_OSproc.h ../../../include/opaque.h \
+ ../../../include/globals.h ../../../include/extinit.h \
+ ../../../include/extnsionst.h ../../../include/extension.h \
+ /usr/include/X11/extensions/dpmsconst.h \
+ /usr/include/X11/extensions/panoramiXproto.h \
+ /usr/include/X11/extensions/XResproto.h \
+ /usr/include/X11/extensions/saver.h \
+ /usr/include/X11/extensions/shapeproto.h \
+ /usr/include/X11/extensions/shapeconst.h \
+ /usr/include/X11/extensions/shm.h /usr/include/X11/extensions/shmproto.h \
+ /usr/include/X11/extensions/XKB.h \
+ /usr/include/X11/extensions/xtestconst.h \
+ /usr/include/X11/extensions/xtestproto.h \
+ /usr/include/X11/extensions/Xv.h /usr/include/X11/extensions/XvMC.h \
+ ../../../include/hotplug.h compiler.h xf86platformBus.h xf86pciBus.h
+
+../../../include/xorg-config.h:
+
+../../../include/dix-config.h:
+
+../../../include/xkb-config.h:
+
+xf86.h:
+
+xf86str.h:
+
+../../../include/misc.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xmd.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xdefs.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/include/i386-linux-gnu/bits/wchar.h:
+
+../../../include/os.h:
+
+../../../include/misc.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/i386-linux-gnu/bits/string.h:
+
+/usr/include/i386-linux-gnu/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/i386-linux-gnu/bits/endian.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/bits/types.h:
+
+/usr/include/i386-linux-gnu/bits/typesizes.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/i386-linux-gnu/bits/string3.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/i386-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/i386-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/i386-linux-gnu/bits/stdio.h:
+
+/usr/include/i386-linux-gnu/bits/stdio2.h:
+
+../../../include/Xprintf.h:
+
+/usr/include/X11/Xfuncs.h:
+
+/usr/include/i386-linux-gnu/bits/waitflags.h:
+
+/usr/include/i386-linux-gnu/bits/waitstatus.h:
+
+/usr/include/i386-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/i386-linux-gnu/sys/select.h:
+
+/usr/include/i386-linux-gnu/bits/select.h:
+
+/usr/include/i386-linux-gnu/bits/sigset.h:
+
+/usr/include/i386-linux-gnu/bits/time.h:
+
+/usr/include/i386-linux-gnu/bits/select2.h:
+
+/usr/include/i386-linux-gnu/sys/sysmacros.h:
+
+/usr/include/i386-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/i386-linux-gnu/bits/stdlib.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/i386-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/i386-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/math.h:
+
+/usr/include/i386-linux-gnu/bits/huge_val.h:
+
+/usr/include/i386-linux-gnu/bits/huge_valf.h:
+
+/usr/include/i386-linux-gnu/bits/huge_vall.h:
+
+/usr/include/i386-linux-gnu/bits/inf.h:
+
+/usr/include/i386-linux-gnu/bits/nan.h:
+
+/usr/include/i386-linux-gnu/bits/mathdef.h:
+
+/usr/include/i386-linux-gnu/bits/mathcalls.h:
+
+/usr/include/i386-linux-gnu/bits/mathinline.h:
+
+/usr/include/assert.h:
+
+/usr/include/ctype.h:
+
+../../../include/input.h:
+
+../../../include/screenint.h:
+
+/usr/include/X11/Xproto.h:
+
+/usr/include/X11/Xprotostr.h:
+
+../../../include/window.h:
+
+../../../include/region.h:
+
+../../../include/regionstr.h:
+
+../../../include/miscstruct.h:
+
+/usr/include/pixman-1/pixman.h:
+
+/usr/include/pixman-1/pixman-version.h:
+
+../../../include/xkbrules.h:
+
+../../../include/events.h:
+
+../../../include/list.h:
+
+/usr/include/X11/extensions/XI2.h:
+
+../../../include/scrnintstr.h:
+
+../../../include/colormap.h:
+
+../../../include/cursor.h:
+
+../../../include/privates.h:
+
+../../../include/dix.h:
+
+../../../include/callback.h:
+
+../../../include/gc.h:
+
+../../../include/pixmap.h:
+
+../../../include/input.h:
+
+../../../Xext/geext.h:
+
+/usr/include/X11/extensions/geproto.h:
+
+/usr/include/X11/extensions/ge.h:
+
+/usr/include/X11/extensions/XI.h:
+
+../../../include/resource.h:
+
+../../../include/dixaccess.h:
+
+../../../include/validate.h:
+
+../../../include/pixmapstr.h:
+
+../../../miext/damage/damage.h:
+
+../../../include/colormapst.h:
+
+xf86Module.h:
+
+../../../include/extension.h:
+
+../../../include/dixstruct.h:
+
+../../../include/client.h:
+
+xf86Opt.h:
+
+xf86Optionstr.h:
+
+../../../include/list.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/X11/extensions/randr.h:
+
+../../../include/propertyst.h:
+
+../../../include/property.h:
+
+/usr/include/pciaccess.h:
+
+../parser/xf86Parser.h:
+
+../parser/xf86Optrec.h:
+
+xf86Optionstr.h:
+
+../parser/xf86tokens.h:
+
+xf86Config.h:
+
+../parser/xf86Optrec.h:
+
+xf86Priv.h:
+
+xf86Privstr.h:
+
+../../../hw/xfree86/os-support/xf86_OSlib.h:
+
+/usr/include/X11/Xos.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/i386-linux-gnu/bits/fcntl.h:
+
+/usr/include/i386-linux-gnu/bits/uio.h:
+
+/usr/include/i386-linux-gnu/bits/stat.h:
+
+/usr/include/i386-linux-gnu/bits/fcntl2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/i386-linux-gnu/bits/posix_opt.h:
+
+/usr/include/i386-linux-gnu/bits/environments.h:
+
+/usr/include/i386-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/i386-linux-gnu/bits/unistd.h:
+
+/usr/include/i386-linux-gnu/sys/time.h:
+
+/usr/include/i386-linux-gnu/bits/timex.h:
+
+/usr/include/X11/Xarch.h:
+
+/usr/include/i386-linux-gnu/sys/ioctl.h:
+
+/usr/include/i386-linux-gnu/bits/ioctls.h:
+
+/usr/include/i386-linux-gnu/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/i386-linux-gnu/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/i386-linux-gnu/bits/ioctl-types.h:
+
+/usr/include/i386-linux-gnu/sys/ttydefaults.h:
+
+/usr/include/signal.h:
+
+/usr/include/i386-linux-gnu/bits/signum.h:
+
+/usr/include/i386-linux-gnu/bits/siginfo.h:
+
+/usr/include/i386-linux-gnu/bits/sigaction.h:
+
+/usr/include/i386-linux-gnu/bits/sigcontext.h:
+
+/usr/include/i386-linux-gnu/asm/sigcontext.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/i386-linux-gnu/asm/types.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/i386-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/i386-linux-gnu/asm/posix_types.h:
+
+/usr/include/i386-linux-gnu/asm/posix_types_32.h:
+
+/usr/include/i386-linux-gnu/bits/sigstack.h:
+
+/usr/include/i386-linux-gnu/sys/ucontext.h:
+
+/usr/include/i386-linux-gnu/bits/sigthread.h:
+
+/usr/include/termio.h:
+
+/usr/include/termios.h:
+
+/usr/include/i386-linux-gnu/bits/termios.h:
+
+/usr/include/errno.h:
+
+/usr/include/i386-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/i386-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/i386-linux-gnu/sys/stat.h:
+
+/usr/include/i386-linux-gnu/sys/mman.h:
+
+/usr/include/i386-linux-gnu/bits/mman.h:
+
+/usr/include/i386-linux-gnu/sys/kd.h:
+
+/usr/include/linux/kd.h:
+
+/usr/include/i386-linux-gnu/sys/vt.h:
+
+/usr/include/linux/vt.h:
+
+/usr/include/i386-linux-gnu/sys/wait.h:
+
+/usr/include/i386-linux-gnu/sys/resource.h:
+
+/usr/include/i386-linux-gnu/bits/resource.h:
+
+../../../hw/xfree86/os-support/xf86_OSproc.h:
+
+../../../include/opaque.h:
+
+../../../include/globals.h:
+
+../../../include/extinit.h:
+
+../../../include/extnsionst.h:
+
+../../../include/extension.h:
+
+/usr/include/X11/extensions/dpmsconst.h:
+
+/usr/include/X11/extensions/panoramiXproto.h:
+
+/usr/include/X11/extensions/XResproto.h:
+
+/usr/include/X11/extensions/saver.h:
+
+/usr/include/X11/extensions/shapeproto.h:
+
+/usr/include/X11/extensions/shapeconst.h:
+
+/usr/include/X11/extensions/shm.h:
+
+/usr/include/X11/extensions/shmproto.h:
+
+/usr/include/X11/extensions/XKB.h:
+
+/usr/include/X11/extensions/xtestconst.h:
+
+/usr/include/X11/extensions/xtestproto.h:
+
+/usr/include/X11/extensions/Xv.h:
+
+/usr/include/X11/extensions/XvMC.h:
+
+../../../include/hotplug.h:
+
+compiler.h:
+
+xf86platformBus.h:
+
+xf86pciBus.h:
